@@ -664,6 +664,7 @@ img {
    /* transform .3s linear; */
   }
 
-  .project-link:hover .gallery-description {
+  .project-link:hover .gallery-description,
+  .project-link:focus .gallery-description {
    transform: translateY(-100%);
   }
